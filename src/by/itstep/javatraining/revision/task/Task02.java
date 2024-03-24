@@ -34,6 +34,6 @@ public class Task02 {
             return -1;
         }
 
-        return coin - (coin / seeker) * seeker;
+        return coin % seeker;
     }
 }

@@ -36,6 +36,6 @@ public class Task05 {
             return 0;
         }
 
-        return number % 2 == 0 ? number + 2 : number + 1;
+        return number + 2 - number % 2;
     }
 }
