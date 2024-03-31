@@ -26,7 +26,7 @@ public class TaskXTest {
     }
 
     @Test
-    public void testWhereMoreCoinThanSeekerWithFourRemainder() {
+    public void testWhereMoreCoinThanSeekerWithFourRemainder()   {
         assertEquals(1, TaskX.start(5, 9));
     }
 

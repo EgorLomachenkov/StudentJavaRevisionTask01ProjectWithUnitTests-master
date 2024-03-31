@@ -32,6 +32,8 @@ public class TaskX {
             return -1;
         }
 
-        return coin % seeker == 0 ? 0 : (seeker - coin % seeker);
+
+        return (seeker - coin % seeker) * (coin % seeker) /
+                ((coin % seeker) + 1 - 2 * (coin % seeker) / ((coin % seeker) + 1));
     }
 }
